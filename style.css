@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+}
+#logo-img{
+    height: 100px;
+    width: 200px;
+
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-links a{
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+    color:  red;
+}
+#font{
+    font-style: italic;
+    color: red;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#menu-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.menu-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card{
+    margin: 4px;
+}
+.btn{
+    margin: 10px;
+}
+#about-section{
+    margin-top: 20px;
+}
+#about-color{
+    color: red;
+}
+footer{
+    margin-top: 40px;
+    border-top: 1px solid black;
+}
+#footer{
+    margin-top: 15px;
+
+}
+input{
+    padding: 8px;
+    border-radius: 30px;
+}
+#icons{
+    text-align: center;
+}
+#icons i{
+   margin: 30px;
+}
+#menu-section h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    color: red;
+    font-size: 2rem;
+}
+.col-md-12{
+    padding: 0;
+}
+.menu-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #f7f7f7;
+    box-shadow: -2px 13px 24px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 13px 24px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 24px -3px rgba(0,0,0,0.75);
+    margin-top: 0 10px;
+}
+.menu-links a{
+    font-size: 1.3rem;
+    color: black;
+    font-style: italic;
+  
+}
+.menu-links a:hover{
+    color: red;
+}
+#beef-burgers, #chicken-burgers, #drinks, #desserts, #extras{
+    margin: 15px 0;
+}
+.menu-items{
+    margin-top: 30px;
+}
+.each-menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: -1px 17px 33px -13px rgba(0,0,0,0.62);
+-webkit-box-shadow: -1px 17px 33px -13px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 17px 33px -13px rgba(0,0,0,0.62);
+}
+.each-menu:hover{
+    border: 1px solid grey;
+}
+#space{
+    margin-bottom: 30px;
+}
