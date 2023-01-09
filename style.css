@@ -43,6 +43,11 @@
     justify-content: space-around;
     margin-top: 20px;
 }
+.card:hover{
+    box-shadow: -2px 13px 24px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 13px 24px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 24px -3px rgba(0,0,0,0.75);
+}
 .card{
     margin: 4px;
 }
