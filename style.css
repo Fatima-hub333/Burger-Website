@@ -131,3 +131,53 @@ input{
 #space{
     margin-bottom: 30px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+#contact-heading{
+    max-width: 100%;
+    height: 150px;
+    background-color: red;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Rowdies', cursive;
+    margin-bottom: 40px;
+
+}
+#data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#data>button{
+    width:100%;
+    font-size: 1rem;
+    border-radius:20px;
+    font-weight: bold;
+}
+#contact-details{
+    margin: 30px 10px;
+    box-shadow: -1px 17px 33px -13px rgba(0,0,0,0.62);
+-webkit-box-shadow: -1px 17px 33px -13px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 17px 33px -13px rgba(0,0,0,0.62);
+background-color: #f7f7f7;
+padding: 5px;
+}
+#contact-details p{
+    font-weight:lighter ;
+    margin: 3px;
+}
+#contact-details i{
+    color: black;
+    margin: 0 5px;
+}
+#copyright-section{
+    margin: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
