@@ -180,3 +180,16 @@ input {
   font-size: 1.5rem;
   font-weight: lighter;
 }
+@media (max-width:460px) {
+  #contact-heading{
+    font-size: 2rem;
+  }
+}
+@media (max-width:1300px) {
+  #contact-img{
+    display: none;
+  }
+  #data {
+    justify-content: center;
+  }
+}
